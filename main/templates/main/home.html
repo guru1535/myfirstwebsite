@@ -1,0 +1,15 @@
+<!-- main/templates/main/home.html -->
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container text-center">
+    <h1>Fantacy Game</h1>
+    <a href="#" class="btn btn-dark my-4" disabled>Join Now - YOUR TRUSTED FANTASY SPORTS</a>
+    <img src="{% static 'main/images/myimages.jpg' %}" alt="Fantacy Game Image" class="img-fluid" style="max-width: 1000px; width: 100%;">
+    <img src="{% static 'main/images/myimages2.jpg' %}" alt="Fantacy Game Image" class="img-fluid" style="max-width: 1000px; width: 100%;">
+    <img src="{% static 'main/images/myimages3.jpg' %}" alt="Fantacy Game Image" class="img-fluid" style="max-width: 1000px; width: 100%;">
+    <img src="{% static 'main/images/myimages4.jpg' %}" alt="Fantacy Game Image" class="img-fluid" style="max-width: 1000px; width: 100%;margin-bottom: 1.5rem;">
+</div>
+
+{% endblock %}
